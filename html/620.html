@@ -1,0 +1,89 @@
+<html>
+	<head>
+        <title>Comic JK 620: Syntax Sin</title>
+		<style type='text/css'>
+			body {background-color:#020; color:#fff; font-family:helvetica,sans-serif; text-align:center;}
+            a {text-decoration:none; font-size:45px; color:#fff; border-style:none;}
+		</style>
+        
+	</head>
+	<body><div style='background-color:#000; width:1000px; margin:auto; position:relative; -moz-border-radius:25px; border-radius:25px;'>
+    <div style='color:#090; font-size:30px; position:absolute; top:5px; left:5px; font-family:monospace;'>Comic JK 620</div>
+    <div style='color:#090; font-size:30px; position:absolute; top:5px; right:5px; font-family:monospace;'>When I Feel Like It</div><span><a href='../comic.php/1'>&#8676; </a> &nbsp<a href='../comic.php/619'><</a> &nbsp<a href='../comic.php/317'> ? </a> &nbsp<a href='../comic.php/621'>></a> &nbsp<a href='../comic.php/latest'> &#8677;</a></span><br /><a href="../comic.php/294"><img src="../Pics/Comic620.gif" style="margin:auto; background-color:black;" title="And the word 'def' before functions, and the parentheses around function calls...ok, time to read up on making my own compiler." alt="Syntax Sin"  /></a><br /><span><a href='../comic.php/1'>&#8676; </a> &nbsp<a href='../comic.php/619'><</a> &nbsp<a href='../comic.php/317'> ? </a> &nbsp<a href='../comic.php/621'>></a> &nbsp<a href='../comic.php/latest'> &#8677;</a></span><br /><a href='http://www.reddit.com/r/ComicJK' target='_blank' title='Forum' style='font-size:15px; color:#0c0;'>Forum</a> . 
+  <a href='../rss.php' title='RSS Feed' style='font-size:15px; color:#0c0;'>RSS</a> . 
+  <a href='http://digg.com/submit?phase=2&url=http://comicjk.com/comic.php/620&topic=comics_animation&bodytext=Comic+JK+620&title=Comic+JK+620:+Syntax Sin' target='_blank' title='Digg it' style='font-size:15px; color:#0c0;'>Digg</a> . 
+  <a href='http://www.facebook.com/share.php?u=http://comicjk.com/comic.php/620' target='_blank' title='Facebook it' style='font-size:15px; color:#0c0;'>Facebook</a> . 
+  <a href='http://www.reddit.com/submit?url=http://comicjk.com/comic.php/620&title=Comic+JK+620:+Syntax Sin' target='_blank' title='Reddit it' style='font-size:15px; color:#0c0;'>Reddit</a> . 
+  <a href='http://twitter.com/home/?status=Comic+JK+620%20http%3A%2F%2Fcomicjk.com%2Fcomic.php%2F620' target='_blank' title='Tweet it' style='font-size:15px; color:#0c0;'>Twitter</a> . 
+  <a href='http://www.stumbleupon.com/submit?url=http://comicjk.com/comic.php/620&title=Comic JK 620: Syntax Sin' target='_blank' title='Stumble it' style='font-size:15px; color:#0c0;'>Stumbleupon</a><form action="../comment_box.php" method="post">
+<input type="hidden" name="comic" value="620">
+<textarea name="message" rows="9" cols="85" style="background-color:black; color:#0c0; border:1px solid white; overflow-y:scroll;" onKeyPress="limitText(this,6000);"
+onBlur="limitText(this,6000); onSubmit="limitText(this,6000);">Enter your thoughts on number 620 here. Please, no spamming, trolling, or tax fraud.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bad for Mr. Rossum, but I wouldn&#039;t want to be the guy who invented lisp. All the parens...
+&gt;All of them completely useful. 
+&gt;&gt; Often, people also encode the nesting in indentation.
+&gt;&gt;&gt; The parens are not redundant though; not all information is preserved if you use indentation rather than parens and it would be too much of a hassle to use only indents and no parens.
+
+There is nothing wrong with colons in Python.  That&#039;s like debating whether if-blocks with one line should have {} or not around the one statement in c.  There are stylistic advantages and disadvantages to both.  I&#039;m sick of computer religious war bullshit - there are no black-and-white answers.
+&gt;Unless they&#039;re in text areas like this.
+&gt;Yeah but python is whitespace sensitive, in theory that should eliminate the need for needless punctuation
+&gt;&gt;Could always revert back to old black-and-green
+&gt;&gt; The colon removes any ambiguity that would result from not having it (which I&#039;m having a hard time thinking of). Also, it looks better with it than without. Python is made with aesthetics in mind, you know :P
+&gt;&gt;&gt;I always thought the colon was the thing that got the shit out of you...
+&gt;&gt;&gt; I personally think it looks better without the colon. Anyway, I think the colon should be automatically displayed in the text editor, but not saved to the text file – that way everyone can choose their preference, and people who don’t like the colon don’t have to look at it.
+--terrible idea! then you would have to use a special text editor! i like notepad++ for everything...
+And don’t forget the extra self parameter as the first function argument of every method of an object. It should be a keyword instead. I read a defense of self as the first argument once, but I didn’t really understand it, and it wasn’t very convincing. (If anyone understood it and thinks it’s justified, by all means explain.)
+&gt; The main times I make use of self being a parameter is when I need to pass a function as an argument to another function like reduce. Instead of creating an unnecessary lambda and doing &quot;reduce(lambda a, b: a.func(b), sequence)&quot;, I do &quot;reduce(A.func, sequence)&quot; (where A is a&#039;s class).
+And it removes a hell of a lot of ambiguity when nesting classes and functions (eg):
+class A(object):
+    def function1(aSelf):
+        class B(object):
+            def function2(bSelf):
+Yeah, these are corner cases, but the way Python handles these corner cases is what makes it such an awesome language.
+
+&gt;&gt;&gt;&gt;In Python, the colon should be optional. Because it is essentially useless.
+But what about single line ifs?
+&gt;&gt;&gt;&gt;&gt;&gt;A conditional expression has an unambiguous ending, always. So you can always tell when the condition ends and the block begins, even on one line. 
+
+Did anyone else initially think the character on the right was sitting at a piano…?
+&gt; I did. I also corrected your spelling.
+&gt; Ohhhhh... That&#039;s supposed to be a keyboard and monitor! Where&#039;s the computer? Maybe one of those fancy all-in-one-box macs?
+
+
+I actually at first missed the name, and thought this was a proctologist joke…
+
+
+A syntax sin tax would mean instant bankruptcy for Larry Wall…
+&gt;Seriously.  Ew.
+&gt;&gt;Yeah
+
+
+yeah, these are unnecessary, but whatever
+&gt; That&#039;s what she said!
+&gt;&gt; I wish she&#039;d said it earlier
+&gt;&gt;&gt;Haha!
+
+They really are unnecessary.  At least that&#039;s what I thought when I was first learning the language.  I don&#039;t really notice/care about them anymore.
+
+WOOOOOOOOOOOOOO!</textarea><script language="javascript" type="text/javascript">
+function limitText( field, maxlimit ) {
+  if ( field.value.length > maxlimit )
+  { field.value = field.value.substring( 0, maxlimit ); return false;}
+}
+</script><br />
+<input type="submit" value="Post to Comment Box"/> </form>
+</div>
+<div style="width:936; margin:0 auto 0 auto">
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src=\'" + gaJsHost + "google-analytics.com/ga.js\' type=\'text/javascript\'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-6808261-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</div></body></html>
