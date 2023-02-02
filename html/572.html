@@ -9,7 +9,7 @@
 	</head>
 	<body><div style='background-color:#000; width:1000px; margin:auto; position:relative; -moz-border-radius:25px; border-radius:25px;'>
     <div style='color:#090; font-size:30px; position:absolute; top:5px; left:5px; font-family:monospace;'>Comic JK 572</div>
-    <div style='color:#090; font-size:30px; position:absolute; top:5px; right:5px; font-family:monospace;'>When I Feel Like It</div><span><a href='../comic.php/1'>&#8676; </a> &nbsp<a href='../comic.php/571'><</a> &nbsp<a href='../comic.php/1067'> ? </a> &nbsp<a href='../comic.php/573'>></a> &nbsp<a href='../comic.php/latest'> &#8677;</a></span><br /><a href="../comic.php/408"><img src="../Pics/Comic572.gif" style="margin:auto; background-color:black;" title="I assume they have just one face for easy punching." alt="Bounding Rounding"  /></a><br /><span><a href='../comic.php/1'>&#8676; </a> &nbsp<a href='../comic.php/571'><</a> &nbsp<a href='../comic.php/1067'> ? </a> &nbsp<a href='../comic.php/573'>></a> &nbsp<a href='../comic.php/latest'> &#8677;</a></span><br /><a href='http://www.reddit.com/r/ComicJK' target='_blank' title='Forum' style='font-size:15px; color:#0c0;'>Forum</a> . 
+    <div style='color:#090; font-size:30px; position:absolute; top:5px; right:5px; font-family:monospace;'>When I Feel Like It</div><span><a href='1.html'>&#8676; </a> &nbsp<a href='571.html'><</a> &nbsp<a href='328.html'> ? </a> &nbsp<a href='573.html'>></a> &nbsp<a href='738.html'> &#8677;</a></span><br /><a href="408.html"><img src="../Pics/Comic572.gif" style="margin:auto; background-color:black;" title="I assume they have just one face for easy punching." alt="Bounding Rounding"  /></a><br /><span><a href='1.html'>&#8676; </a> &nbsp<a href='571.html'><</a> &nbsp<a href='328.html'> ? </a> &nbsp<a href='573.html'>></a> &nbsp<a href='738.html'> &#8677;</a></span><br /><a href='http://www.reddit.com/r/ComicJK' target='_blank' title='Forum' style='font-size:15px; color:#0c0;'>Forum</a> . 
   <a href='../rss.php' title='RSS Feed' style='font-size:15px; color:#0c0;'>RSS</a> . 
   <a href='http://digg.com/submit?phase=2&url=http://comicjk.com/comic.php/572&topic=comics_animation&bodytext=Comic+JK+572&title=Comic+JK+572:+Bounding Rounding' target='_blank' title='Digg it' style='font-size:15px; color:#0c0;'>Digg</a> . 
   <a href='http://www.facebook.com/share.php?u=http://comicjk.com/comic.php/572' target='_blank' title='Facebook it' style='font-size:15px; color:#0c0;'>Facebook</a> . 
@@ -17,35 +17,7 @@
   <a href='http://twitter.com/home/?status=Comic+JK+572%20http%3A%2F%2Fcomicjk.com%2Fcomic.php%2F572' target='_blank' title='Tweet it' style='font-size:15px; color:#0c0;'>Twitter</a> . 
   <a href='http://www.stumbleupon.com/submit?url=http://comicjk.com/comic.php/572&title=Comic JK 572: Bounding Rounding' target='_blank' title='Stumble it' style='font-size:15px; color:#0c0;'>Stumbleupon</a><form action="../comment_box.php" method="post">
 <input type="hidden" name="comic" value="572">
-<textarea name="message" rows="9" cols="85" style="background-color:black; color:#0c0; border:1px solid white; overflow-y:scroll;" onKeyPress="limitText(this,6000);"
-onBlur="limitText(this,6000); onSubmit="limitText(this,6000);">Enter your thoughts on number 572.9 here. Please, no spamming, trolling, evaluating int(0.5), or changing the fpu&#039;s rounding mode before calling assumption-ridden library functions.
-
-Your mother designed a language which always rounds up.
-
-We&#039;re trained to round from elementary-school arithmetic onwards (and it makes sense in terms of decimal approximations), but having the int() constructor take the integral part of a float (as opposed to the fractional part) seems like an equally intuitive notion to me.
-&gt;It synergizes well with array indices starting from zero
-&gt; Rounding shouldn&#039;t happen automatically in languages at all.  You should have to call round(), floor(), or ceil(), or set a default yourself.
-&gt;&gt; #define round(x) (int)(x + 0.5)
-&gt;&gt;Maping to an int should therefore not do any conversion, and thus when done on a float you should just get some massive number that would be the int if it was an int not a float.
-&gt;&gt;&gt; you mean like float y; int x = *(int*)&amp;y; by default?  why would that be a good idea in any high-level language?
-&gt;&gt;&gt;&gt;Casting a float to an int should throw an exception if there is a fractional part.  If you care about the rounding direction, be more explicit in your code. Some day, you&#039;re going to have to reread that code. Or gasp, somebody else. Think of your fellow man.
-
-
-Hey look!  There&#039;s something flying over my head.  Is it the Geminid meteor shower that&#039;s going on tonight?  Wait no, it&#039;s just this webcomic.
-
-&gt;int() doesn&#039;t &#039;round down&#039;, it takes the integer part. What&#039;s the value of 
-int(-7.6)?  
-&gt;&gt;Don&#039;t be so negative
-&gt;&gt; -7. 6 is removed becaust 7 decimated it.
-&gt;&gt;This is why there&#039;s INT(), FIX() and CINT().  INT() rounds down, FIX() rounds up and CINT() rounds to the nearest number.
-&gt;&gt;&gt;wtf language are those from?
-&gt;&gt;&gt;&gt;Argh! BASIC outbreak! Notify the CDC! Quarantine! Quarantine!
-
-The guy in the comic could still emulate the old function by writing a new int method that subtracts.5 if the number is more than zero and adds .5 if it&#039;s less than zero, than taking the &quot;int&quot; of the result
-&gt; That only works if the tie-breaking method for rounding is &quot;round half away from zero&quot;. Floating point processors in computers tend to default to &quot;round half to even&quot; (where x.5 is rounded up or down so that the result is always an even number) which would be harder to account for (but is better).  And what if the language doesn&#039;t specify, but just relies on the rounding mode currently set for the cpu?  Panic will ensue!
-
-it&#039;s all because of binary
-&gt;Because rounding _never_ happens in decimal.</textarea><script language="javascript" type="text/javascript">
+<script language="javascript" type="text/javascript">
 function limitText( field, maxlimit ) {
   if ( field.value.length > maxlimit )
   { field.value = field.value.substring( 0, maxlimit ); return false;}
